@@ -24,4 +24,5 @@ FILES_liboctinterp-dbg += "${libdir}/${PN}/${PV}/.debug/liboctinterp*"
 # octave-oct provides subroutines in .oct file format
 FILES_${PN}-oct = "${libexecdir}/${PN}/${PV}/oct/${TARGET_SYS}/.debug/*.oct"
 
+# debug files
 FILES_${PN}-dbg += "${libdir}/${PN}/${PV}/oct/${TARGET_SYS}/.debug"
